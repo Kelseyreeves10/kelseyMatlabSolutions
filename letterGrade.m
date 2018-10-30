@@ -2,7 +2,7 @@ function [mean,letterGrade] = letterGrade(a,b,c)
 %function that takes 3 grades and returns the average 
 %and appropriate letter grade.
 
-    average = (a+b+c)/3;
+    average = (a+b+c)/3
     
     if (average >= 90)
         letter = 'A';
