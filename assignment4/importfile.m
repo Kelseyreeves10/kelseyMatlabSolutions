@@ -8,7 +8,7 @@ function [SubjectID,Age,Gender,Weight,Day1,Day2,Day3] = importfile(filename, sta
 %   file FILENAME.
 %
 % Example:
-%   [SubjectID,Age,Gender,Weight,Day1,Day2,Day3] = importfile('isok_data_6803.csv',2, 26);
+%   [SubjectID,Age,Gender,Weight,Day1,Day2,Day3] = importfile('isok_data_6803.csv', 2, 26);
 %
 %    See also TEXTSCAN.
 
